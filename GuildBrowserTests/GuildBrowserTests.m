@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-   // STFail(@"Unit tests are not implemented yet in GuildBrowserTests");
+	STAssertEqualObjects(@"test", @"test", @"this should equal");
 }
 
 @end
