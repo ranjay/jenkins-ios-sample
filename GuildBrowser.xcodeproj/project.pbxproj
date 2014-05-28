@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2460AAE4193678A8009BABA1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2460AAE3193678A8009BABA1 /* XCTest.framework */; };
 		2460AAEA193678A8009BABA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2460AAE8193678A8009BABA1 /* InfoPlist.strings */; };
-		2460AAEC193678A8009BABA1 /* GuildBrowserLogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2460AAEB193678A8009BABA1 /* GuildBrowserLogicTests.m */; };
 		CB9FDC4015E9872D00B3713E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC3F15E9872D00B3713E /* UIKit.framework */; };
 		CB9FDC4215E9872D00B3713E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
 		CB9FDC4415E9872D00B3713E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4315E9872D00B3713E /* CoreGraphics.framework */; };
@@ -87,7 +86,6 @@
 		2460AAE3193678A8009BABA1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2460AAE7193678A8009BABA1 /* GuildBrowserLogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuildBrowserLogicTests-Info.plist"; sourceTree = "<group>"; };
 		2460AAE9193678A8009BABA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2460AAEB193678A8009BABA1 /* GuildBrowserLogicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuildBrowserLogicTests.m; sourceTree = "<group>"; };
 		2460AAED193678A8009BABA1 /* GuildBrowserLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GuildBrowserLogicTests-Prefix.pch"; sourceTree = "<group>"; };
 		CB9FDC3B15E9872D00B3713E /* GuildBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuildBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9FDC3F15E9872D00B3713E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -206,7 +204,6 @@
 		2460AAE5193678A8009BABA1 /* GuildBrowserLogicTests */ = {
 			isa = PBXGroup;
 			children = (
-				2460AAEB193678A8009BABA1 /* GuildBrowserLogicTests.m */,
 				2460AAE6193678A8009BABA1 /* Supporting Files */,
 			);
 			path = GuildBrowserLogicTests;
@@ -561,7 +558,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2460AAEC193678A8009BABA1 /* GuildBrowserLogicTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -834,6 +830,7 @@
 				2460AAF1193678A8009BABA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB9FDC3515E9872D00B3713E /* Build configuration list for PBXProject "GuildBrowser" */ = {
 			isa = XCConfigurationList;
